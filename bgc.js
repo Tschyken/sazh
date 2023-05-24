@@ -57,8 +57,8 @@ module.exports = {
       let limit = 20;
 
       if(!hasPublicInventory){
-        maxScore -= 2;
-        scoreDeductions.push("User has private inventory, score limit -2")
+     message.reply("user dioes not have thig public")
+       
     } else {
         do{
 
