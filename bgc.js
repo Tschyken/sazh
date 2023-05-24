@@ -142,7 +142,7 @@ module.exports = {
    try {
      responses = await axios.all([
        axios.get(
-         `https://api.trello.com/1/boards/XrfoA2za/cards?key=b8d724e47b785616e90c74dbab85a26e&token=ATTA2bf74d2e297cc3f517c9db82a1e74d572074b6ff9883de48a43ef42263b934e244CFD8D5`
+         `https://api.trello.com/1/boards/XrfoA2za/cards?key=${keyToken}&token=${token}`
        ),
      ]);
    } catch (error) {
